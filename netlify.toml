@@ -1,0 +1,10 @@
+[build]
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/api/sheet/*"
+  to = "https://docs.google.com/spreadsheets/d/:splat/export?format=xlsx"
+  status = 200
+  force = true
+
